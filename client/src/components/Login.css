@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container-1{
+    max-width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(36, 68, 73);
+}
+
+.container-1 .login-container{
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: normal;
+    line-height: normal;
+    padding:10px;
+    color:rgb(36, 68, 73);
+    background-color: white;
+    box-shadow:8px;
+    border-radius: 8px;
+}
+
+.container-1 .login-container .title{
+    font-size:30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.container-1 .login-container form h5{
+    font-size:20px;
+    margin: 4px 11px;
+    text-align: start;
+    padding:0 0 0 3px; 
+}
+.container-1 .login-container form input{
+    padding:6px ;
+    border-radius:5px;
+    width:90%;
+}
+
+.container-1 .login-container form input:focus{
+    outline-color:  rgb(36, 68, 73) ;
+}
+
+
+.container-1 .login-container form button{
+    padding:5px 13px;
+    font-size: 16px;
+    border-radius:5px;
+    background-color: rgb(36, 68, 73) ;
+    color:white;
+    border: none;
+}
+.container-1 .login-container form button:hover{
+   transition:0.3s;
+   background-color:rgb(16, 26, 27);
+   border:  2px solid   rgb(36, 68, 73);
+   box-shadow: 4px;
+}
+
+.container-1 .login-container p{
+    color:black;
+    margin-top:20px;
+    text-align: start;
+}
+
+.container-1 .login-container p a{
+    text-decoration: none;
+}
+
+.container-1 .login-container p a:hover{
+    color:rgb(36, 68, 73);
+}
